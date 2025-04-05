@@ -88,7 +88,6 @@ nav a:focus {
     outline: none;
 }
 
-
 /* Hero Section */
 .hero {
     position: relative;
@@ -203,22 +202,7 @@ section {
 /* Section 2: Image Grid */
 .section2 {
     background-color: var(--accent1-color);
-    text-align: center; /* Centers the text inside the section */
-    padding: 40px 20px; /* Add padding for spacing */
 }
-
-.section2 h2 {
-    font-size: 2.5rem; /* Adjust size as needed */
-    margin-bottom: 30px; /* Spacing between heading and figures */
-    color: #fff; /* Ensures the heading color matches the theme */
-}
-
-.figure-flex {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-items: center;
 
 /* Section for figures */
 .figure-flex {
