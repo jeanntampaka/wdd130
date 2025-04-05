@@ -66,13 +66,13 @@ header img {
 nav {
     display: flex;
     justify-content: flex-start;
-    gap: 5px;
+    gap: 1px;
 }
 
 nav a {
     font-weight: 700;
     font-size: 1.1rem;
-    padding: 8px 16px;
+    padding: 5px 10px;
     background-color: var(--primary-color);
     color: #fff;
     border: 2px solid var(--secondary-color);
