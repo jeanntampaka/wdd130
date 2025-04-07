@@ -272,3 +272,152 @@ footer img {
         margin-bottom: 10px;
     }
 }
+/* --------------------------
+   Title Section
+-------------------------- */
+.contact-title-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact-title-content h1 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+/* --------------------------
+   Combined Contact Info & Form Section
+-------------------------- */
+.contact-main-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 40px 20px;
+    background-color: var(--accent1-color);
+    border-radius: 8px;
+}
+
+.contact-info-map,
+.contact-form-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Contact Info & Map Styles */
+.contact-info-map h2 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.map-container {
+    margin-top: 15px;
+}
+
+/* Contact Form Styles */
+.contact-form-section h1 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.contact-form-section p {
+    margin-bottom: 20px;
+}
+
+.contact-form-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form-section input,
+.contact-form-section select,
+.contact-form-section textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-form-section button[type="submit"] {
+    background-color: var(--secondary-color);
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-form-section button[type="submit"]:hover {
+    background-color: var(--primary-color);
+}
+
+/* --------------------------
+   Team Showcase Section
+-------------------------- */
+.team-showcase {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.team-showcase h2 {
+    margin-bottom: 30px;
+    color: var(--primary-color);
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 220px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    margin: 10px 0 5px;
+    color: var(--primary-color);
+}
+
+/* --------------------------
+   Responsive Adjustments
+-------------------------- */
+@media (max-width: 768px) {
+    .contact-title-section {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-main-section {
+        grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
